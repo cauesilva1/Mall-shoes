@@ -334,6 +334,7 @@
 
 .containerMobile{
   width: 100%;
+  overflow: hidden;
 }
 
 .mobileNavegation{
