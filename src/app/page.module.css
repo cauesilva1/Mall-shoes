@@ -321,7 +321,7 @@
   font-size: 4rem;
 }
 
-.wrapper{
+/* .wrapper{
   display: grid;
   grid-template-rows: 0fr;
   overflow: hidden;
@@ -330,13 +330,17 @@
 
 .wrapper.open{
   grid-template-rows: 1fr;
+} */
+
+.containerMobile{
+  width: 100%;
 }
 
 .mobileNavegation{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   
 }
 
