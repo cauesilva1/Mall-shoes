@@ -9,7 +9,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiChevronsUp } from "react-icons/fi";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 export default function Home() {
   const [menu, setMenu] = useState(false);
