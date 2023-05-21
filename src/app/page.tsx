@@ -19,7 +19,7 @@ export default function Home() {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 3000,
+    speed: 4000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     slidesToShow: 5,
@@ -151,210 +151,210 @@ export default function Home() {
             
           <section className={styles.cards }>
           
-          <div className={styles.destaques}>
-            <h1>LANÇAMENTOS</h1>
-            <div className={styles.tenisDestaques}>
+            <div className={styles.destaques}>
+              <h1>LANÇAMENTOS</h1>
+              <div className={styles.tenisDestaques}>
 
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis2.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
                   </div>
-                  <a href="#">Saiba mais </a>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
                 </div>
 
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis3.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
+                  </div>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
+                </div>
+
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis2.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
+                  </div>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
+                </div>
+
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis3.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
+                  </div>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
+                </div>
               </div>
+            </div>
 
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
+            <div className={styles.Category}>
+              <h1>DIVERSOS</h1>
+              <div className={styles.tenisCategory}>
+
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis3.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
                   </div>
-                  <a href="#">Saiba mais </a>
-                </div>
-
-              </div>
-
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
                   </div>
-                  <a href="#">Saiba mais </a>
+
                 </div>
 
-              </div>
-
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis2.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
                   </div>
-                  <a href="#">Saiba mais </a>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
+                </div>
+
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis3.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
+                  </div>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
+                </div>
+
+                <div className={styles.CardContainerDestaque}>
+                  <div className={styles.backgroundImage}>
+                      <Image
+                      className={styles.imageCard}
+                      src="/tenis2.png"
+                      width={250}
+                      height={190}
+                      alt="Tenis-principal"
+                    />
+                  </div>
+                  <div className={styles.descriçãoProduto}>
+                    <h3> NIKE V 0.3</h3>
+                    <h4>Tamanhos disponiveis</h4>
+                    <div className={styles.Tamanhos}>
+                    <p>41</p>
+                    <p>42</p>
+                    <p>43</p>
+                    <p>44</p>
+                    </div>
+                    <a href="#">Saiba mais </a>
+                  </div>
+
                 </div>
 
               </div>
             </div>
-          </div>
-
-          <div className={styles.Category}>
-            <h1>DIVERSOS</h1>
-            <div className={styles.tenisCategory}>
-
-              <div className={styles.CardContainerCategory}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
-                  </div>
-                  <a href="#">Saiba mais </a>
-                </div>
-
-              </div>
-
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
-                  </div>
-                  <a href="#">Saiba mais </a>
-                </div>
-
-              </div>
-
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
-                  </div>
-                  <a href="#">Saiba mais </a>
-                </div>
-
-              </div>
-
-              <div className={styles.CardContainerDestaque}>
-                <div className={styles.backgroundImage}>
-                    <Image
-                    className={styles.imageCard}
-                    src="/tenis3.png"
-                    width={250}
-                    height={190}
-                    alt="Tenis-principal"
-                  />
-                </div>
-                <div className={styles.descriçãoProduto}>
-                  <h3> Modelo do tenis</h3>
-                  <h4>Tamanhos disponiveis</h4>
-                  <div className={styles.Tamanhos}>
-                  <p>41</p>
-                  <p>42</p>
-                  <p>43</p>
-                  <p>44</p>
-                  </div>
-                  <a href="#">Saiba mais </a>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
 
 
           </section>

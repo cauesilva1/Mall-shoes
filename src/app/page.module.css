@@ -87,6 +87,8 @@
 
 .cards{
   margin-top: -6rem;
+  /* margin-bottom: 4rem; */
+  padding-bottom: 4rem;
   gap: 3rem;
   display: flex;
   justify-content: center;
@@ -126,6 +128,7 @@
     width: 7rem;
     height: 1.7rem;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,8 +188,8 @@
 
 .CardContainerDestaque{
   background-color: #1c1c1c;
-  width: 40vh;
-  height: 50vh;
+  /* width: 40vh;
+  height: 50vh; */
   border-radius: 1rem;
   margin-top: 5vh;
 }
@@ -224,26 +227,30 @@
 
 
 .footer{
-  height: 10rem;
   background-color: #1c1c1c;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
 }
 
-/* .footer h1{
+.footer h1{
   filter: drop-shadow(0.3rem 0.2rem 0 rgb(122, 122, 122)) drop-shadow(0.3rem 0.2rem 0.2rem rgb(131,58,180));
-} */
+} 
 
-/* 
+
 .Contatos{
-  margin-right: 4rem;
+  margin-right: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} */
+} 
+
+.iconsFooter{
+  width: 3rem;
+  height: auto;
+}
 
 @keyframes moviTenis{
 
